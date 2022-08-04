@@ -1,0 +1,234 @@
+@media only screen and (max-width: 1440px) {
+  .section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 10vmin;
+    left: -20vmin;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  header .nav-item:last-child {
+    padding-right: 4.5em;
+  }
+
+  header .navbar-brand {
+    padding-left: 4rem;
+  }
+  .section-1 .row .col-md-6 .pray img {
+    position: initial;
+    width: 70%;
+    padding-bottom: 3rem;
+  }
+  header .row .col-md-5 img {
+    width: 100%;
+  }
+
+  header .container .col-md-7 h1 {
+    font-size: 5.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+  }
+  header .row .col-md-7 {
+    padding: 15vmin 1vmin;
+    padding-bottom: 25vmin;
+  }
+
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    top: 7vmin;
+    left: -18vmin;
+    padding: 1vmin 5vmin 2vmin 10vmin;
+  }
+  .section-1 .row .col-md-6 .pray img {
+    position: initial;
+    width: 90%;
+  }
+
+  .cover {
+    background-position: -24rem -12rem;
+  }
+
+  .numbers .rect {
+    width: 13rem;
+    height: 10rem;
+    padding-top: 0vmin;
+  }
+
+  .section-3 {
+    overflow-y: hidden;
+    height: 80vmin;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  .section-1 .row .col-md-6 .pray img {
+    position: initial;
+    width: 102%;
+    padding-bottom: 3rem;
+  }
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    top: 7vmin;
+    left: -18vmin;
+    padding: 1vmin 5vmin 2vmin 10vmin;
+  }
+}
+
+@media only screen and (max-width: 778px) {
+  .fa-align-right {
+    padding-right: 4rem;
+  }
+
+  header .container .col-md-7 p {
+    font-size: 0.8rem;
+    padding: 1vmin 5vmin;
+  }
+
+  .section-1 .row .col-md-6 .pray img {
+    position: initial;
+    width: 102%;
+    padding-bottom: 3rem;
+  }
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    top: 7vmin;
+    left: -18vmin;
+    padding: 2vmin 5vmin 2vmin 5vmin;
+  }
+
+  .numbers .rect {
+    width: 9rem;
+    height: 7rem;
+    padding-top: 0vmin;
+  }
+
+  .numbers .rect h1 {
+    font-size: 3rem;
+    color: tomato;
+  }
+  .numbers .rect > p {
+    font-size: 0.8rem;
+  }
+
+  .section-3 {
+    overflow-y: hidden;
+    height: 80vmin;
+  }
+
+  .section-3 .col-md-12 > h1 {
+    padding: 1em 0 0.5em 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section-1 .row .col-md-6 .pray img {
+    position: initial;
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    top: 7vmin;
+    left: -18vmin;
+    padding: 1vmin 5vmin 2vmin 5vmin;
+  }
+
+  .section-3 {
+    height: 90vmin;
+    margin-top: 15vmin;
+    background: var(--bg-gradient);
+  }
+
+  .footer-col {
+    padding: 2rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .section-1 .row .col-md-6 .pray img {
+    position: initial;
+    width: 70%;
+    padding-bottom: 3rem;
+  }
+}
+@media only screen and (max-width: 485px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+
+  .fa-align-right {
+    padding-right: 1rem;
+  }
+
+  header .container .col-md-7 p {
+    font-size: 1rem;
+    padding: 1vmin 7vmin;
+  }
+
+  header .container .col-md-7 h1 {
+    font-size: 3rem;
+  }
+
+  header .container .col-md-7 {
+    padding-bottom: 2rem;
+  }
+
+  .section-1 .row .col-md-6 .pray img {
+    position: initial;
+    width: 60%;
+    padding-bottom: 3rem;
+  }
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+
+    padding: 5vmin 5vmin 5vmin 10vmin;
+  }
+
+  .cover {
+    background-position: -8rem -5rem;
+  }
+
+  .section-3 {
+    height: 100vmin;
+    margin-top: 15vmin;
+    background: var(--bg-gradient);
+  }
+  .fa-desktop,
+  .fa-mobile-alt {
+    font-size: 2rem;
+  }
+
+  .footer-col {
+    padding: 2rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .numbers .rect {
+    width: 7rem;
+    height: 5rem;
+    padding-top: 0vmin;
+  }
+
+  .section-3 {
+    height: 100vmin;
+    margin-top: 15vmin;
+    background: var(--bg-gradient);
+  }
+  .numbers .rect h1 {
+    font-size: 2.5rem;
+    color: tomato;
+  }
+  .numbers .rect > p {
+    font-size: 0.8rem;
+  }
+  .section-3 {
+    height: 130vmin;
+  }
+  .section-3 .col-md-12 > p {
+    padding: 0 2em;
+    padding-bottom: 2em;
+    color: var(--light-gray);
+    font-size: 4vmin;
+  }
+}
