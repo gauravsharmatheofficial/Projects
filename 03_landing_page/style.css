@@ -361,4 +361,8 @@ span {
     left: 80px;
     width: 50%;
   }
+   .text {
+    display: block;
+    padding-top: 50px;
+  }
 }
